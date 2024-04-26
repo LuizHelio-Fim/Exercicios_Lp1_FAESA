@@ -1,7 +1,5 @@
-sexos = []
 alturas = []
 alturasF = []
-idades = []
 alturasF30 = 0
 tot_entradas = 0
 
@@ -20,10 +18,9 @@ for i in range(0, 5):
         alturasF30 += altura
         tot_entradas += 1
 
-    
 media = alturasF30/tot_entradas
 
+print("\n")
 print("A maior altura inserida foi: {}".format(alturas[0]))
 print("O numero de mulheres que tem mais de 1.7m é: {}".format(len(alturasF)))
-print("A media das alturas das mulheres com mais de 30 anos é: {:.2f}".format("media"))
-        
+print("A media das alturas das mulheres com mais de 30 anos é: {:.2f}".format(media))    
