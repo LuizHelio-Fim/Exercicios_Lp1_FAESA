@@ -9,7 +9,7 @@ elif reta1 == 0 or reta2 == 0 or reta3 == 0:
 else:
     if reta1 == reta2 == reta3:
         print("Triangulo equilátero")
-    elif reta1 != reta2 != reta3:
+    elif reta1 != reta2 != reta3 != reta1:
         print("Triangulo escaleno")
     else:
         print("Triangulo Isósceles")
