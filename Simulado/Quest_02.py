@@ -16,7 +16,8 @@ while True:
 
         opn_total += 1
     else:
-        print("Digite BOM ou RUIM!")
+        print("Digite apenas BOM ou RUIM!")
+        continue
     if opn_total == 15:
         break
 
