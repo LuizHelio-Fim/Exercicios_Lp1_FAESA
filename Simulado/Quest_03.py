@@ -6,7 +6,7 @@ i = None
 
 while i != 0:
     i = int(input("Digite sua idade: "))
-    prof = input("Digite sua profissão: ").lower()
+    prof = input("Digite sua profissão: ").lower().strip()
 
     if prof == "medico":
         idade_Tot += i
