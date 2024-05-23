@@ -41,11 +41,13 @@ precos = [
 ]
 #valores gerados pelo chatGPT
 
+#calcula o faturamento de cada produto separadamente
 faturamento = []
 for i in range(min(len(quantidades), len(precos))):
     fat = quantidades[i]*precos[i]
     faturamento.append(fat)
 
+#mostra na tela todos os produtos e o faturamento de cada um deles
 cont = 0
 for i in produtos:
     print(f"mercadoria: {produtos[cont]}")
@@ -53,4 +55,5 @@ for i in produtos:
     print(" ")
     cont += 1
 
+#mostra na tela o faturamento total
 print("O faturamento TOTAL foi de: R${:.2f}".format(sum(faturamento)))
