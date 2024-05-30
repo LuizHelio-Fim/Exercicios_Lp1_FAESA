@@ -5,6 +5,7 @@ for i in range(5):
 A[1][1] = 2
 A[3][2] = 4
 
+print(A)
 for lista in A:
     for elemento in lista:
         print(elemento, end=' ')
